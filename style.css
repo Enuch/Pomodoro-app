@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgb(121, 1, 177);
+    background-color: rgb(241, 94, 8);
 }
 
 #main {
@@ -20,7 +20,6 @@
 
     margin-top: 50px;
 
-    border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
 
     display: flex;
@@ -60,6 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .button {
@@ -67,15 +67,19 @@
     border: 1px solid rgb(255, 255, 255);
     border-bottom: 4px solid rgb(209, 208, 208);
 
-    background-color: black;
+    background-color: rgb(245, 245, 245);
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(13, 135, 241);
+
+    border-radius: 30%;
 }
 
 .button:hover {
     background-color: rgb(28, 138, 212);
     cursor: pointer;
     border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+
 }
